@@ -222,7 +222,6 @@
         ------------------------------------------------------ */
 
             header nav {
-                min-height: 5vh;
                 overflow: hidden;
             }
 
@@ -314,6 +313,20 @@
     /* ------------------------------------------------------
         4. Footer
     ------------------------------------------------------ */
+
+            footer {
+                background-color: var(--darkpurple);
+                vertical-align: center;
+            }
+
+            footer p {
+                padding: 2.5vh 5vw;
+                margin: 0;
+            }
+
+            footer a {
+                color: white;
+            }
 
 /* ------------------------------------------------------
     B. Small screens
