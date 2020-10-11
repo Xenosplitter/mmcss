@@ -155,6 +155,10 @@
     ------------------------------------------------------ */
 
         body {
+            background-color: var(--independence);
+            font-family: "Minecraft", "Ubuntu", Arial, sans-serif;
+            font-size: large;
+            color: white;
             margin: 0 auto;
             padding: 0;
             overflow-x: hidden;
@@ -236,8 +240,9 @@
             nav a {
                 display: block;
                 text-align: center;
-                padding: 1.5vh 1.5vw;
+                padding: 1.5vh 2vw;
                 font-family: 'Minecraft', 'Ubuntu', Arial, sans-serif;
+                font-size: larger;
                 color: white;
                 font-weight: bold;
                 text-decoration: none;
@@ -259,13 +264,35 @@
             3.2. Main Index section
         ------------------------------------------------------ */ 
 
+            main > p:first-of-type {
+                padding: 1vh 2.5vw;
+            }
+
             .column-wrapper {
+                justify-content: center;
                 display: flex;
-                max-width: 100%;;
+                flex-wrap: wrap;
+                width: 100%;
             }
 
             .guide-column {
                 flex: 1; /* Grow all columns equally */
+                margin: 0 2.5vw 5vh;
+            }
+
+            .guide-link {
+                font-weight: bold;
+                font-size: 24px;
+                color: white;
+            }
+
+            .guide-link:visited {
+                color: white;
+            }
+
+            .minecraft-img {
+                width: 100%;
+                border-radius: 2.5%;
             }
 
         /* ------------------------------------------------------
@@ -322,6 +349,10 @@
             3.2. Main Index section
         ------------------------------------------------------ */
 
+            .guide-column {
+                min-width: 85%;
+            }
+
         /* ------------------------------------------------------
             3.3. Realms section
         ------------------------------------------------------ */
@@ -373,6 +404,26 @@
             3.2. Main Index section
         ------------------------------------------------------ */
 
+            /* Columns can get wider, as one moves down below */
+            .guide-column {
+                min-width: 40%;
+            }
+
+            /* We only want to split this column on medium sizes, so we need a new name */
+            .sub-column {
+                flex: 1; /* Grow all columns equally */
+                margin: 0 2.5vw 5vh;
+            }
+
+
+            /* Basically creates a new .row for the diy column */
+            .large-on-medium {
+                justify-content: center;
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+            }
+
         /* ------------------------------------------------------
             3.3. Realms section
         ------------------------------------------------------ */
@@ -423,14 +474,10 @@
         /* ------------------------------------------------------
             3.2. Main Index section
         ------------------------------------------------------ */
-
-            /* ------------------------------------------------------
-                3.2.1. Center-mid-1
-            ------------------------------------------------------ */
-
-            /* ------------------------------------------------------
-                3.2.2. Center-mid-2
-            ------------------------------------------------------ */        
+        
+            .guide-column {
+                max-width: 25vw;
+            }
 
         /* ------------------------------------------------------
             3.3. Realms section
