@@ -341,6 +341,20 @@
             2.1 Structure, logo
         ------------------------------------------------------ */
 
+            .parallax {
+                /* The image used */
+                background-image: url("../img/minecraft-banner.jpg");
+            
+                /* Full height */
+                height: 50vh;
+            
+                /* Create the parallax scrolling effect */
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
         /* ------------------------------------------------------
             2.2 Header text
         ------------------------------------------------------ */
@@ -400,6 +414,20 @@
         /* ------------------------------------------------------
             2.1 Structure, logo
         ------------------------------------------------------ */
+        
+            .parallax {
+                /* The image used */
+                background-image: url("../img/minecraft-banner.jgp");
+            
+                /* Full height */
+                height: 40vh;
+            
+                /* Create the parallax scrolling effect */
+                background-attachment: fixed;
+                background-position: 0 -20vh;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
 
         /* ------------------------------------------------------
             2.2 Header text
@@ -471,6 +499,20 @@
         /* ------------------------------------------------------
             2.1 Structure, logo
         ------------------------------------------------------ */
+
+        .parallax {
+            /* The image used */
+            background-image: url("../img/minecraft-banner.jpg");
+        
+            /* Full height */
+            height: 50vh;
+        
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
 
         /* ------------------------------------------------------
             2.2 Header text
