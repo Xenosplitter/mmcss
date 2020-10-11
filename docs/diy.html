@@ -13,7 +13,7 @@
             <nav>
                 <ul>
                     <li>
-                        <a id="active" href="index.html">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
                         <a href="realms.html">Realms</a>
@@ -29,12 +29,30 @@
                     </li>
                 </ul>
             </nav>
-            <div class="parallax"></div>
+            <div class="parallax">
+                <div>
+                    <p>
+                        Minecraft DIY Server Guide <br />
+                        A complete gudie to hosting your own server, <br />
+                        from Java to Bedrock.
+                    </p>
+                </div>
+            </div>
         </header>
 
         <main>
-            <p id="intro">
-
+            <p class="page-text">
+                If you want it done right you’ve got to do it yourself! As a bounus, it’s free! (Probably. It really depends on how you do it). While a DIY solution is certainly the most free-form of options, it falls on you when something goes wrong. Ideally, nothing will go wrong, but you never know, especially when working with mods. If you want to run a server that you also will be playing on, your best bet is to use a secondary computer to do all of the hosting. Minecraft is a big game and takes a lot of resources to keep running. If you want to play and host at the same time, doing it on one machine requires a beefy PC. Doing it on a laptop is a no-go.
+            </p><p class="page-text">
+                To ensure a stable connection, you will want to have the host computer to be plugged in to your internet via an Ethernet cable. This keeps data rates consistent and helps prevent sudden disconnects. The next big step is deciding how the networking will work. By default, servers try and communicate on a specific port, a designated gap in your router’s connection to the outside world. In order to communicate with computers on other networks (other routers), you need to port forward the port your server will be using. (By default, this is 25565). If you only expect to use the server locally, you can skip this step.
+            </p><p class="page-text">
+                Minecraft (at least Java edition) supports this natively, allowing anyone to turn any singleplayer world into a temporary local area network (LAN) server. However, you may want a server that can run without you being in the world yourself. Having a server you run yourself, often reffered to as a dedicated server, allows you to keep a server up as long as you want to.
+            </p><p class="page-text">
+                Another option, for those who want to avoid port forwarding, is using a third party application to create a virtual “portal” that connects others to your network. Imagine your friend’s computer connects to your computer, which then communicates to your router. This creates a virtual LAN, allowing servers to work wihtout extra router setup.
+            </p><p class="page-text">
+                Finally, the most common solution: port forwarding your router. While this process differes with every router make and model, each router’s configuration page should have an option labeled something along the lines of Port Forwarding. There, you setup the port 25565 to relate to the computer’s internal IP address for TCP/UDP traffic. Once that is setup, computers outside of your network can communicate with applications on your PC using that port. To have your friends connect to your server, you will need to have them connect to your public IP address. This should change every time your router reboots, unless you have a more complex setup. Use a service such as www.whatismyip.com to find this information out. This is the IP you give to your friends.
+            </p><p class="page-text">
+                Now for the splitting point of the guide. Will you be playing on Java edition or on Bedrock edition? This will most likely be determined by which version you own, but playing with mods is more often then not on the Java version of Minecraft. That isn’t to say that Bedrock doesn’t mods, it has many! Speak with your friends and find out which version all of you have and plan on playing on. Once you know, simply select the edition out of the two below.
             </p>
         </main>
 

@@ -259,11 +259,20 @@
             3.1. Section header
         ------------------------------------------------------ */
 
+            /* Center text in banner */
+            .parallax > div {
+                height: 50vh;
+                padding-left: 7.5vw;
+                font-size: 32px;
+                display: table-cell;
+                vertical-align: middle;
+            }
+
         /* ------------------------------------------------------
             3.2. Main Index section
         ------------------------------------------------------ */ 
 
-            main > p:first-of-type {
+            #intro {
                 padding: 1vh 2.5vw;
             }
 
@@ -294,9 +303,18 @@
                 border-radius: 2.5%;
             }
 
+            .host-text {
+                line-height: 150%;
+            }
+
         /* ------------------------------------------------------
             3.3. Realms section
         ------------------------------------------------------ */
+
+        main > p.page-text {
+            line-height: 200%;
+            padding: 1vh 10vw;
+        }
 
         /* ------------------------------------------------------
             3.4. Host section
@@ -309,6 +327,38 @@
         /* ------------------------------------------------------
             3.6. Contact section
         ------------------------------------------------------ */
+
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+          }
+          
+          input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          
+          input[type=submit]:hover {
+            background-color: var(--laurelgreen);
+          }
+          
+          #form-container {
+            max-width: 65%;
+            border-radius: 5px;
+            background-color: var(--darkpurple);
+            padding: 20px;
+            margin: 0 auto 3.5vh;
+          }
 
     /* ------------------------------------------------------
         4. Footer
