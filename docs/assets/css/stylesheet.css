@@ -316,6 +316,27 @@
             padding: 1vh 10vw;
         }
 
+        nav#editions ul {
+            width: 70%;
+            margin: 3.5vh auto;
+        }
+
+        nav#editions li {
+            width: 50%;
+        }
+
+        nav#editions a {
+            margin: 0 5vw;
+            color: var(--darkpurple);
+            border: 1px solid var(--darkpurple);
+            border-radius: 15px;
+            background-color: var(--goldcrayola);
+        }
+
+        nav#editions a:hover {
+            background-color: var(--beige);
+        }
+
         /* ------------------------------------------------------
             3.4. Host section
         ------------------------------------------------------ */
@@ -466,18 +487,18 @@
         ------------------------------------------------------ */
         
             .parallax {
-                /* The image used */
-                background-image: url("../img/minecraft-banner.jgp");
-            
-                /* Full height */
-                height: 40vh;
-            
-                /* Create the parallax scrolling effect */
-                background-attachment: fixed;
-                background-position: 0 -20vh;
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
+            /* The image used */
+            background-image: url("../img/minecraft-banner.jpg");
+        
+            /* Full height */
+            height: 50vh;
+        
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
 
         /* ------------------------------------------------------
             2.2 Header text
